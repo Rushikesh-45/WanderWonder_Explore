@@ -1,0 +1,120 @@
+/* body{
+    background-image: url(./images/image_5.jpg) ;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+  
+  } */
+  .box{
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    /* border: 2px solid rgba(255,255,255,0.1); */
+    box-shadow: 0 0 40px rgba(197, 227, 6, 0.6);
+    padding: 50px 35px;
+    /* background-color: transparent; */
+    width: 650px;
+    height: fit-content;
+   
+  }
+  .flex{
+    display: flex;
+  }
+  .wlcm{
+    /* font-family: Lucida Handwriting; */
+    font-weight: bold;
+    font-size: 40px;
+    /* width: 300px; */
+    margin-bottom: 40px;
+    color: darkcyan;
+  }
+  .signupform{
+    background-image: url(./images/image_5.jpg) ;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+
+    /* --- */
+
+ 
+  }
+
+  label{
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    font-size: 30;
+    display: flex;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* input[type="text"], 
+  input[type="password"], 
+  input[type="email"],
+  input[type="number"],
+  input[type="date"], */
+  .myinput
+  
+  {
+    /* display: block; */
+    padding: 6px 12px;
+    font-size: 14px;
+    /* line-height: 1.42; */
+    /* color: black; */
+    background-color: bisque;
+    border: 2px solid rgb(164, 161, 170);
+    /* border-radius: 5px; */
+    width: 350px;
+    /* margin-left: 10px; */
+   
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type=number] {
+      -moz-appearance: textfield;
+  }
+  
+  
+  .mform-control{
+    margin-bottom: 25px;
+   
+  }
+  .error{
+    color: red;
+  }
+  .mybutton {
+    margin-left: 20px;
+    width: 150px;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+    background-color: #428ac9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    
+  }
+
+
+  
+  

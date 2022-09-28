@@ -1,0 +1,18 @@
+.adminb1{
+    background-color: cyan;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    height: 100px;
+    width: 200px;
+}
+.boxesa{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1.5rem;
+    padding-top: 1rem,;
+}
+small-box bg-info, small-box bg-success{
+    border-radius: 15px;
+}

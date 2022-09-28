@@ -1,0 +1,33 @@
+.login{
+
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%); 
+    width: 550px;
+    height: 600px;
+    top: 50%;
+    left: 25%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 50px;
+
+  
+  }
+  .bki{
+    background-image: url(./images/about.jpg) ;
+    /* <img src='./css/images/logo.jpg' /> */
+
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .forgotpass{
+    /* color: black; */
+    margin-left: 200px;
+  }
+  

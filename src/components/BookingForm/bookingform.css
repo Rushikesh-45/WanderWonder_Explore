@@ -1,0 +1,13 @@
+.bg{
+    background-image: url(../css/images/logo.png);
+    position: absolute;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: 15rem ;
+    background-repeat: 2;
+    
+    /* background-size: cover; */
+    /* filter: brightness(10%); */
+    /* background-color: aqua; */
+    
+}

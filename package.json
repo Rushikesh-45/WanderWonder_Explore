@@ -1,0 +1,63 @@
+{
+  "name": "project1",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/Rushikesh-45/WanderWonder_Explore.git",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^2.9.8",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "chart.js": "^3.8.0",
+    "chartjs-adapter-moment": "^1.0.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^7.3.6",
+    "gh-pages": "^4.0.0",
+    "jspdf": "^2.5.1",
+    "mdb-react-ui-kit": "^4.2.0",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.36.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.1.14",
+    "styled-components": "^5.3.5",
+    "sweetalert-react": "^0.4.11",
+    "sweetalert2": "^11.4.33",
+    "sweetalert2-react-content": "^5.0.3",
+    "swiper": "^8.4.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:react/jsx-runtime"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+:root{
+  --orange:#ffa500;
+}
+.content1{
+  font-size: 160px;
+  color: #fff;
+  font-weight: 600;
+
+}
+
+.content1 a{
+  
+  font-family: Lucida Handwriting; 
+  display: inline-block; 
+  margin-top: 2rem; 
+  background:var(--orange); 
+  color:#fff; 
+  padding:.10rem 5rem; 
+  border:.2rem solid var(--orange); 
+  cursor: pointer; 
+  font-size: 1.7rem; 
+  margin-top: 250px;  
+  margin-left: 670px; 
+  border-radius: 25px; 
+
+}
+.content1 a:hover{
+  background:rgba(255, 165, 0,.2);
+  color:var(--orange);
+}
+.bg-video{
+  position: absolute;
+  filter: brightness(100%);
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+
+.about .controls1{
+    padding:1rem;
+    border-radius: 5rem;
+    background:rgba(0,0,0,.7);
+    position: relative;
+    top:10rem;
+  }
+  
+  .about .controls1 .vid-btn{
+    height:2rem;
+    width:2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background:#fff;
+    cursor: pointer;
+    margin:0 .5rem;
+  }
+  
+ 
+  .about .controls1 .vid-btn.active{
+    background:var(--orange);
+  }
+  
+  .container0{
+      background-color: transparent;
+      color: #fff;
+      background-size: cover;
+      display: inline-block;
+      position: relative;
+      margin-left: 100px;
+      margin-top: 300px;
+      padding: auto;
+      
+  }
+
+  .container01{
+      margin-left: 50%;
+      position: absolute;
+      margin-top: 180px;
+      
+     
+     
+      
+      
+  }
+
+  .container02{
+      margin-right: 0px;
+      position: absolute;
+      margin-top: 100px;
+      margin-right: 50%;
+      align-self: flex-end;
+      
+      
+  }

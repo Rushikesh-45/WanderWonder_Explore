@@ -1,0 +1,128 @@
+.header {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 250px 0px;
+  }
+  
+  .headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+  }
+  
+
+  
+  .headerListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .headerDesc {
+    margin: 20px 0px;
+  }
+  
+  .headerBtn {
+    background-color: #ffffff;
+    color: rgb(8, 66, 110);
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .headerSearch {
+    height: 30px;
+   /* margin-left: 0px; */
+    border: 3px solid;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 50px 1px;
+    /* border-radius: 10px; */
+    position: absolute;
+    bottom: 100px;
+    /* margin-left: 00px; */
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .headerIcon {
+    color: rgb(255, 255, 255);
+  }
+  
+  .headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .headerSearchInput {
+    border: none;
+    outline: none;
+    background-color: rgba(243, 246, 246, 0.595);
+    color: rgb(10, 0, 0);
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  
+  .headerSearchText {
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+  }
+  
+  .date {
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    border-radius: 15px;
+  }
+  
+  .options {
+    z-index: 2;
+    margin: 0px 0px 0px 0px;
+    top: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffffb4;
+    color: #252222;
+    cursor: pointer;
+    font-size:15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+.optionCounterNumber{
+  color: #ffffff;
+  font-size:15px;
+}
